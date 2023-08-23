@@ -1,11 +1,12 @@
 import React from 'react'
+const Item= ({id, name, img, price, stock}) => {
 
-const Item= ({id, nasme, img, price, stock}) => {
-
-  return(
+  return (
     <article className="CardItem">
       <header className="CardItem">
-        <h2 className="ItemHeader">{name}</h2>
+        <h2 className="ItemHeader">
+          {name}
+        </h2>
 
       </header>
       <picture>
@@ -28,3 +29,5 @@ const Item= ({id, nasme, img, price, stock}) => {
     </article>
   )
 }
+
+export default Item;

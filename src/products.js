@@ -5,7 +5,7 @@ const products = [
     price: 1222,
     category: 'pantalones',
     img:'https://nikearprod.vtexassets.com/arquivos/ids/660116-1000-1000?v=1779138592&width=1000&height=1000&aspect=true',
-    stock: 199,
+    stock: 19,
     description:'Descripcion de pantalon nike'
   },
   {
@@ -14,7 +14,7 @@ const products = [
     price: 1222,
     category: 'pantalones',
     img:'https://nikearprod.vtexassets.com/arquivos/ids/600613-1000-1000?v=1779138473&width=1000&height=1000&aspect=true',
-    stock: 199,
+    stock: 19,
     description:'Descripcion de pantalon nike'
   },
   {
@@ -23,7 +23,7 @@ const products = [
     price: 1222,
     category: 'pantalones',
     img:'https://nikearprod.vtexassets.com/arquivos/ids/311548-1000-1000?v=1779138577&width=1000&height=1000&aspect=true',
-    stock: 199,
+    stock: 19,
     description:'Descripcion de pantalon nike'
   }
 ]

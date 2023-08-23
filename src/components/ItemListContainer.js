@@ -1,8 +1,9 @@
 import React , { useState, useEffect} from 'react';
+import { getProducts } from '../products'
 import ItemList from './ItemList';
-import { getProducts } from '../asynMoc'
 
 const ItemListContainer = ({greeting}) => {
+  console.log(getProducts);
   const [products, setProducts] = useState([])
 
     useEffect(() => {
