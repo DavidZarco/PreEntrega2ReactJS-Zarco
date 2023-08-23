@@ -1,6 +1,6 @@
 import React , { useState, useEffect} from 'react';
-import { getProducts } from "../products";
 import ItemList from './ItemList';
+import { getProducts } from '../asynMoc'
 
 const ItemListContainer = ({greeting}) => {
   const [products, setProducts] = useState([])
@@ -20,7 +20,8 @@ const ItemListContainer = ({greeting}) => {
         <ItemList products={products}/>
       </div>
   )
-} ;
+} 
+;
 
 
 export default ItemListContainer;
