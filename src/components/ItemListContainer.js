@@ -11,7 +11,7 @@ const ItemListContainer = ({greeting}) => {
 
     useEffect(() => {
 
-      const asyncFunc = categoryId ? getProductsByCategory : getProducts
+      const asyncFunc =  categoryId ? getProductsByCategory : getProducts
 
       asyncFunc(categoryId)
         .then(response => {

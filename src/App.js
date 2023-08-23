@@ -5,8 +5,6 @@ import ItemListContainer from './components/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer';
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './routes/Home'
-
-
 export default function App() {
   return (
     <BrowserRouter>
@@ -19,7 +17,6 @@ export default function App() {
         <Route path='*' element={<h1>404 NOT FOUND</h1>}/>
       </Routes>  
       <ItemListContainer greeting={'Bienvenidos'}/>
-      <ItemDetailContainer/>
     </BrowserRouter>
   );
 }
